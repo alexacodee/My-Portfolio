@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio Website showcasing background, projects, resume, and contact details.">
+    <title>Lea Alexa Acapuyan Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">MyPortfolio</a>
+            
+            <!-- Pure CSS Hamburger Toggle for Mobile -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger-btn" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#resume">Resume</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="hero" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <span class="greeting">Hello, I'm</span>
+                    <h1>Lea Alexa Acapuyan</h1>
+                    <p class="tagline">Sole-Proprietor | Freelancer | Founder </p>
+                    <p class="bio-short">Computer Science Student & Business Enthusiast </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Project</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/profile.jpg.jpg" width="350" height="350">
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT ME SECTION -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>I am a business enthusiast with a strong passion for entrepreneurship, market trends, and learning how successful companies grow.</p>
+                        <p>I’m currently studying Computer Science with a focus on applying technology to real-world business challenges. 
+                            My goal is to understand how modern digital solutions can optimize operations, improve customer experiences, 
+                            and help companies scale effectively.</p>
+                    </div>
+                    <div class="about-highlights">
+                        <div class="highlight-card">
+                            <h3>Focus Areas</h3>
+                            <p>Entrepreneurship, Market Trends, Business Strategy</p>
+                        </div>
+                        <div class="highlight-card">
+                            <h3>Location</h3>
+                            <p>San Vicente, Ilocos Sur, Philippines</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESUME SECTION -->
+        <section id="resume" class="resume-section">
+            <div class="container">
+                <h2 class="section-title">Resume & Experience</h2>
+                
+                <div class="resume-grid">
+                    <!-- Education Column -->
+                    <div class="resume-column">
+                        <h3>Education</h3>
+                        <div class="resume-card">
+                            <span class="date">2023 - Present</span>
+                            <h4>Operator</h4>
+                            <p class="institution">CITRANSCO MPC</p>
+                            <p>A associate member, investor and a franchise owner of CITRANSCO MPC.</p>
+                        </div>
+                    </div>
+
+                    <!-- Experience Column -->
+                    <div class="resume-column">
+                        <h3>Experience</h3>
+                        <div class="resume-card">
+                            <span class="date">2024 - Present</span>
+                            <h4>B.S. in Computer Science</h4>
+                            <p class="institution">University of Northern Philippines</p>
+                            <p>A third-year student with a focus on web development and application development.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills Section -->
+                <div class="skills-block">
+                    <h3>Technical Skills</h3>
+                    <ul class="skills-tags">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Canva</li>
+                        <li>Java</li>
+                        <li>Flutter</li>
+                    </ul>
+                </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Featured Project</h2>
+                <div class="projects-grid">
+                    
+                    <article class="project-card">
+                        <img src="assets/PriorCare.png" alt="Preview of Capstone Project 1 website layout" class="project-img">
+                        <div class="project-content">
+                            <h3>Priority Care</h3>
+                            <p>A simulation where it automatically prioritizes patient care based on urgency and medical needs.</p>
+                            <ul class="project-tech">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                                <li>Simulator</li>
+                            </ul>
+                            <a href="PriorityCare-standalone.html" target="_blank" rel="noopener noreferrer" class="project-link">View Project &rarr;</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT ME SECTION -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-intro">Feel free to reach out for collaborations, job opportunities, or just a friendly chat!</p>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <p><a href="mailto:laf.acapuyan@unp.edu.ph">laf.acapuyan@unp.edu.ph</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Social Profiles</h3>
+                            <p>
+                                <a href="https://github.com/alexacodee" target="_blank" rel="noopener noreferrer">GitHub</a> | 
+                                <a href="https://discord.com/users/alexacodee" target="_blank" rel="noopener noreferrer">Discord</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Pure HTML Form -->
+                    <form action="Thank.html" method="GET" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Type your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Lea Alexa Acapuyan. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
